@@ -1,8 +1,14 @@
 {
   "name": "vikash-cli",
-  "version": "1.1.0",
+  "version": "1.2.0",
+  "description": "Publish your first package using `npx vikash-cli`",
   "main": "index.js",
   "bin": {
     "vikash-cli": "./index.js"
-  }
+  },
+  "keywords": [
+    "vikash-cli",
+    "welcome package",
+    "first package"
+  ]
 }

@@ -2,4 +2,8 @@
 const clearConsole = require('./utils/clear-console');
 const pkgJson = require('./package.json');
 clearConsole();
-console.log(`package name - ${JSON.stringify(pkgJson)}`);
+console.log(`
+NAME: - ${pkgJson.name}
+VERSION: - ${pkgJson.version}
+DESCRIPTION: - ${pkgJson.description}
+`);
