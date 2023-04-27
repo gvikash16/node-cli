@@ -3,6 +3,7 @@
   "version": "1.2.0",
   "description": "Publish your first package using `npx vikash-cli`",
   "main": "index.js",
+  "type": "module",
   "bin": {
     "vikash-cli": "./index.js"
   },
@@ -10,5 +11,8 @@
     "vikash-cli",
     "welcome package",
     "first package"
-  ]
+  ],
+  "dependencies": {
+    "@automattic/vip": "^2.27.0"
+  }
 }
